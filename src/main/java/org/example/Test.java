@@ -13,6 +13,7 @@ public class Test {
             char x = inserSrting.charAt(i);
             if (x == '{' || x == '[' || x == '(') {
                 stack.push(x);
+
                 continue;
             }
             if (stack.isEmpty()) {
