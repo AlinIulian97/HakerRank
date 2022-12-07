@@ -3,7 +3,8 @@ package org.example;
 import java.util.*;
 
 
-class Student{}
+class Student{
+    }
 class Rockstar{   }
 class Hacker{}
 
