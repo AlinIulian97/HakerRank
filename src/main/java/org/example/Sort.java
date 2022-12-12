@@ -66,7 +66,6 @@ class CompareSGPA implements Comparator<StudentSort> {
         int sortById = o1.getId().compareTo(o2.getId());
         return (sortByCGPa == 0) ? sortByName :
                 (sortByName ==0) ? sortById : sortByCGPa;
-
     }
 }
 
